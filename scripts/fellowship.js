@@ -1,14 +1,14 @@
 console.log("Linked.");
 
 // Dramatis Personae
-var hobbits = [
-  'Frodo Baggins',
-  'Samwise \'Sam\' Gamgee',
-  'Meriadoc \'Merry\' Brandybuck',
-  'Peregrin \'Pippin\' Took'
+const hobbits = [
+  `Frodo Baggins`,
+  `Samwise "Sam" Gamgee`,
+  `Meriadoc "Merry" Brandybuck`,
+  `Peregrin "Pippin" Took`
 ];
 
-var buddies = [
+const buddies = [
   'Gandalf the Grey',
   'Legolas',
   'Gimli',
