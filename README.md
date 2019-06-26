@@ -43,7 +43,6 @@ Tackle tonight's homework **one function** at a time from start to finish.
 NOTE: Each function depends on the previous ones, so make sure your function works
 before moving on to the next one!
 
-### COMMIT AFTER COMPLETING EACH FUNCTION.
 
 3. Every time you **refresh** the browser, you will have to **click the buttons** one by one
 **in order from the beginning** to operate your application. (If really don't want
@@ -51,8 +50,23 @@ the popups after you've completed a step, you can check to disable each popup an
 
 ## Commits
 
-Again, commit and push after each function is complete and working properly.
+### COMMIT AFTER COMPLETING EACH FUNCTION and ensuring that is working properly
 
+
+## Notes
+
+The first couple of questions have lot of information and suggestions about how to do things. But after that, we leave you with more high-level instructions. We might not explicitly tell you to append things or use a loop, so you’ll have to think through what makes sense...
+
+* Should I add an id or a class?
+* Should I use a loop?
+
+**Also remember:**  Are you appending everything correctly?  If you're sure you created it right but you forgot to append, that might be why it's not showing up!
+
+Again you should make sure each problem works for moving on but feel free to go back and add classes or id’s if they’re helpful...say, for example, if you realize it would have been helpful to add a `buddy` class to each of your buddy `li`s or a `hobbit` class to each of your hobbit `li`s, etc, it’s totally fine to go back and do it if it helps you solve that question more easily.  
+
+Note: In Chapter 8 — When you've completed the problem it will look the same — you’ll have to check your Elements tab in chrome to see that it worked.
+
+One More Note: Each function has a console.log() in it simply so that you can see that it is being called, to help you with debugging, feel free to delete them, but _hey!_ in general, in life, remember that adding console.log()s to check that the things that are happening should be happening _can save you hours of agony_.
 
 ===
 

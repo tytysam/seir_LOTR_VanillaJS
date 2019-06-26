@@ -34,7 +34,8 @@ const lands = [
 // Chapter 1
 // ============
 
-function makeMiddleEarth () { console.log("1");
+function makeMiddleEarth () { 
+  console.log("1: makeMiddleEarth");
 
   // 1. create a section tag with an id of middle-earth
 
@@ -62,7 +63,9 @@ function makeMiddleEarth () { console.log("1");
 // Chapter 2
 // ============
 
-function makeHobbits() {console.log("2");
+function makeHobbits() {
+  console.log("2: makeHobbits");
+
   // display an `unordered list` of hobbits in the shire
 
   // give each hobbit a class of `hobbit`
@@ -81,12 +84,14 @@ function makeHobbits() {console.log("2");
 // Chapter 3
 // ============
 
-function keepItSecretKeepItSafe() { console.log("3");
-   // create a div with an id of `'the-ring'`
+function keepItSecretKeepItSafe() { 
+  console.log("3: keepItSecretKeepItSafe");
 
-   // give the div a class of `'magic-imbued-jewelry'`
+  // create a div with an id of `'the-ring'`
 
-   // add the ring as a child of `Frodo`
+  // give the div a class of `'magic-imbued-jewelry'`
+
+  // add the ring as a child of `Frodo`
 
 }
 
@@ -98,7 +103,8 @@ function keepItSecretKeepItSafe() { console.log("3");
 // Chapter 4
 // ============
 
-function makeBaddies() { console.log("4");
+function makeBaddies() { 
+  console.log("4: makeBaddies");
 
   // display an unordered list of baddies in Mordor
 
@@ -116,12 +122,14 @@ function makeBaddies() { console.log("4");
 // Chapter 5
 // ============
 
-function makeBuddies () { console.log("5");
-   // create an `aside` tag
+function makeBuddies () { 
+  console.log("5: makeBuddies");
+
+  // create an `aside` tag
    
-   // put an `unordered list` of the `'buddies'` in the aside
+  // put an `unordered list` of the `'buddies'` in the aside
    
-   // insert your aside as a child element of `rivendell`
+  // insert your aside as a child element of `rivendell`
 
 }
 
@@ -133,8 +141,10 @@ function makeBuddies () { console.log("5");
 // Chapter 6
 // ============
 
-function leaveTheShire() { console.log("6");
-   // assemble the `hobbits` and move them to `rivendell`
+function leaveTheShire() { 
+  console.log("6: leaveTheShire");
+
+  // assemble the `hobbits` and move them to `rivendell`
 }
 
 // COMMIT YOUR WORK
@@ -145,8 +155,10 @@ function leaveTheShire() { console.log("6");
 // Chapter 7
 // ============
 
-function beautifulStranger() { console.log("7");
-   // change the `'Strider'` text to `'Aragorn'`
+function beautifulStranger() { 
+  console.log("7: beautifulStranger");
+
+  // change the `'Strider'` text to `'Aragorn'`
 }
 
 // COMMIT YOUR WORK
@@ -157,10 +169,13 @@ function beautifulStranger() { console.log("7");
 // Chapter 8
 // ============
 
-function forgeTheFellowShip() { console.log("8");
-   // create a new div called `'the-fellowship'` within `rivendell`
-   // add each `hobbit` and `buddy` one at a time to `'the-fellowship'`
-   // after each character is added make an alert that they // have joined your party
+function forgeTheFellowShip() { 
+  console.log("8: forgeTheFellowShip");
+  // create a new div called `'the-fellowship'` within `rivendell`
+  // add each `hobbit` and `buddy` one at a time to `'the-fellowship'`
+  // after each character is added make an alert that they // have joined your party
+  
+  // NOTE: This won't change what you see in the browser.  Use your Elements tab of your Inspector tools to make sure that it worked.
 }
 
 
@@ -171,7 +186,8 @@ function forgeTheFellowShip() { console.log("8");
 // Chapter 9
 // ============
 
-function theBalrog() { console.log("9");
+function theBalrog() { 
+  console.log("9: theBalrog");
    // change the `'Gandalf'` text to `'Gandalf the White'`
    // apply the following style to the element, make the // background 'white', add a grey border
 }
@@ -184,10 +200,11 @@ function theBalrog() { console.log("9");
 // Chapter 10
 // ============
 
-function hornOfGondor() { console.log("10");
-   // pop up an alert that the horn of gondor has been blown
-   // Boromir's been killed by the Uruk-hai!
-   // Remove `Boromir` from the Fellowship
+function hornOfGondor() { 
+  console.log("10: hornOfGondor");
+  // pop up an alert that the horn of gondor has been blown
+  // Boromir's been killed by the Uruk-hai!
+  // Remove `Boromir` from the Fellowship
 }
 
 // COMMIT YOUR WORK
@@ -198,9 +215,10 @@ function hornOfGondor() { console.log("10");
 // Chapter 11
 // ============
 
-function itsDangerousToGoAlone() { console.log("11");
-   // take `Frodo` and `Sam` out of the fellowship and move // them to `Mordor`
-   // add a div with an id of `'mount-doom'` to `Mordor`
+function itsDangerousToGoAlone() { 
+  console.log("11: itsDangerousToGoAlone");
+  // take `Frodo` and `Sam` out of the fellowship and move // them to `Mordor`
+  // add a div with an id of `'mount-doom'` to `Mordor`
 }
 
 
@@ -212,10 +230,11 @@ function itsDangerousToGoAlone() { console.log("11");
 // Chapter 12
 // ============
 
-function weWantsIt() { console.log("12");
-   // Create a div with an id of `'gollum'` and add it to Mordor
-   // Remove `the ring` from `Frodo` and give it to `Gollum`
-   // Move Gollum into Mount Doom
+function weWantsIt() { 
+  console.log("12: weWantsIt");
+  // Create a div with an id of `'gollum'` and add it to Mordor
+  // Remove `the ring` from `Frodo` and give it to `Gollum`
+  // Move Gollum into Mount Doom
 }
 
 
@@ -226,9 +245,10 @@ function weWantsIt() { console.log("12");
 // Chapter 13
 // ============
 
-function thereAndBackAgain() { console.log("13");
-   // remove `Gollum` and `the Ring` from the document
-   // Move all the `hobbits` back to `the shire`
+function thereAndBackAgain() { 
+  console.log("13: thereAndBackAgain");
+  // remove `Gollum` and `the Ring` from the document
+  // Move all the `hobbits` back to `the shire`
 }
 
 // COMMIT YOUR WORK
