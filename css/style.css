@@ -35,7 +35,16 @@ body {
   height: 117%;
   background-color: rgba(0,0,0,0.3); /*dim the background*/
 }
-
+#buttons {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+button {
+  display: block;
+  margin: 12px;
+}
 section {
   font-weight: bold;
   position: absolute;
