@@ -68,7 +68,6 @@ Note: In Chapter 8 â€” When you've completed the problem it will look the same â
 
 One More Note: Each function has a console.log() in it simply so that you can see that it is being called, to help you with debugging, feel free to delete them, but _hey!_ in general, in life, remember that adding console.log()s to check that the things that are happening should be happening _can save you hours of agony_.
 
-===
 
 #### Resources
 
