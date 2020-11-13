@@ -6,7 +6,7 @@
 
 1) **Fork and clone** this repository into your `W03D05` directory
 
-2) **Do:** [LOTR Vanilla JS](lotr.md)
+2) **Do:** [LOTR Vanilla JS](lotr.md) & [Project 1 Proposal](https://git.generalassemb.ly/SEIR-Margaret/project-1/blob/master/README.md)
 
 3) **Submit:** via GitHub issues. Follow the instructions found in the [wiki](https://git.generalassemb.ly/SEIR-Margaret/class-recordings-and-info/blob/master/submitting-homework.md).
 
