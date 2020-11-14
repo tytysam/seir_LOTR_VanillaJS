@@ -232,8 +232,14 @@ function theBalrog() {
 function hornOfGondor() {
   console.log("10: hornOfGondor");
   // pop up an alert that the horn of gondor has been blown
+  alert("THE HORN OF GONDOR has been BLOWN!!⁄!⁄⁄!¡");
   // Boromir's been killed by the Uruk-hai!
+  alert("RIP in peace Boromir...");
   // Remove `Boromir` from the Fellowship
+  // Boromir = the-fellowship > Gandalf --> Legolas --> Gimli --> Aragorn --> Boromir
+  let boromir = document.getElementById("the-fellowship").firstChild.nextSibling
+    .nextSibling.nextSibling.nextSibling;
+  boromir.remove();
 }
 
 // COMMIT YOUR WORK
