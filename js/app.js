@@ -166,6 +166,9 @@ function beautifulStranger() {
   console.log("7: beautifulStranger");
 
   // change the `'Strider'` text to `'Aragorn'`
+  let strider = document.querySelector("aside").firstChild.firstChild
+    .nextSibling.nextSibling.nextSibling;
+  strider.innerText = "Aragorn";
 }
 
 // COMMIT YOUR WORK
