@@ -61,7 +61,7 @@ function makeHobbits() {
   // give each hobbit a class of `hobbit`
   for (let i = 0; i < hobbits.length; i++) {
     let li = document.createElement("li");
-    li.setAttribute("class", hobbits[i]);
+    li.setAttribute("class", "hobbit");
     li.innerText = hobbits[i];
     ul.appendChild(li);
   }
@@ -150,6 +150,9 @@ function leaveTheShire() {
   console.log("6: leaveTheShire");
 
   // assemble the `hobbits` and move them to `rivendell`
+  let rivendell = document.querySelector("#Rivendell").firstChild.nextSibling;
+  let hobbits = document.querySelector("#The-Shire").firstChild.nextSibling;
+  rivendell.append(hobbits);
 }
 
 // COMMIT YOUR WORK
