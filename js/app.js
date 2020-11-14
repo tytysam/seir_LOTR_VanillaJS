@@ -181,9 +181,27 @@ function beautifulStranger() {
 function forgeTheFellowShip() {
   console.log("8: forgeTheFellowShip");
   // create a new div called `'the-fellowship'` within `rivendell`
+  let rivendell = document.getElementById("Rivendell");
+  let theFellowship = document.createElement("div");
+  theFellowship.setAttribute("id", "the-fellowship");
+  rivendell.appendChild(theFellowship);
   // add each `hobbit` and `buddy` one at a time to `'the-fellowship'`
+  let tempBuddies = document.querySelector("aside").firstChild; // this selects the buddies UL
+  let tempHobbits = document.querySelector("aside").firstChild.nextSibling; // this selects the hobbits UL
   // after each character is added make an alert that they // have joined your party
+  // --> for loop to cycle each buddy in our buddies UL (#Rivendell > aside > buddies UL && hobbits UL)
+  for (let i = 0; i < buddies.length; i++) {
+    let li = tempBuddies.firstChild;
+    theFellowship.appendChild(li);
+    alert(`${li.innerText} has joined the party.`);
+  }
 
+  // --> for loop to cycle each hobbit in our hobbits UL (#Rivendell > aside > buddies UL && hobbits UL)
+  for (let i = 0; i < hobbits.length; i++) {
+    let li = tempHobbits.firstChild;
+    theFellowship.appendChild(li);
+    alert(`${li.innerText} has joined the party.`);
+  }
   // NOTE: This won't change what you see in the browser.  Use your Elements tab of your Inspector tools to make sure that it worked.
 }
 
@@ -197,6 +215,7 @@ function forgeTheFellowShip() {
 function theBalrog() {
   console.log("9: theBalrog");
   // change the `'Gandalf'` text to `'Gandalf the White'`
+
   // apply the following style to the element, make the // background 'white', add a grey border
 }
 
