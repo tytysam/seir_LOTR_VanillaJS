@@ -24,7 +24,7 @@ function makeMiddleEarth() {
   console.log("1: makeMiddleEarth");
 
   // 1. create a section tag with an id of middle-earth
-  const section = document.createElement("section");
+  let section = document.createElement("section");
   section.setAttribute("id", "middle-earth");
 
   // 2. use a for loop to iterate over the lands array that does the following:
@@ -80,10 +80,13 @@ function keepItSecretKeepItSafe() {
   console.log("3: keepItSecretKeepItSafe");
 
   // create a div with an id of `'the-ring'`
-
+  let div = document.createElement("div");
+  div.setAttribute("id", "the-ring");
   // give the div a class of `'magic-imbued-jewelry'`
-
+  div.setAttribute("class", "magic-imbued-jewelry");
   // add the ring as a child of `Frodo`
+  let frodo = document.querySelector("ul").firstChild;
+  frodo.appendChild(div);
 }
 
 // COMMIT YOUR WORK
